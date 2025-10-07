@@ -1,0 +1,10 @@
+{
+	"id": "anki-trigger-flashcards",
+	"name": "Anki Trigger Flashcards",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Create Anki flashcards from trigger words (definitions, examples, formulas) with direct export to Anki.",
+	"author": "Your Name",
+	"authorUrl": "https://github.com/yourusername",
+	"isDesktopOnly": false
+}

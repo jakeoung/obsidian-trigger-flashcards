@@ -1,0 +1,153 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+/* Quiz Modal Styles */
+.quiz-summary {
+    background: var(--background-secondary);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.quiz-questions {
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.quiz-question {
+    background: var(--background-primary);
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid var(--background-modifier-border);
+}
+
+.question-header {
+    margin-bottom: 10px;
+    color: var(--text-accent);
+}
+
+.question-options {
+    margin: 10px 0;
+    padding-left: 15px;
+}
+
+.question-options div {
+    margin: 5px 0;
+}
+
+.correct-answer {
+    color: var(--text-success) !important;
+    font-weight: bold !important;
+}
+
+/* Folder Selection Modal Styles */
+.folder-selection-container {
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 5px;
+    padding: 10px;
+    background: var(--background-secondary);
+}
+
+.folder-item {
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.folder-item:hover {
+    background: var(--background-modifier-hover);
+}
+
+.folder-item label {
+    flex: 1;
+    padding-left: 5px;
+}
+
+/* Processing Results Modal Styles */
+.processing-summary {
+    background: var(--background-secondary);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.detailed-results {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.result-item {
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 3px;
+    background: var(--background-primary);
+}
+
+.folder-name {
+    font-weight: bold !important;
+}
+
+.folder-stats {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: var(--text-muted);
+}
+
+.question-answer {
+    margin: 10px 0;
+    padding: 8px;
+    background: var(--background-secondary);
+    border-radius: 3px;
+}
+
+.question-explanation {
+    margin-top: 10px;
+    padding: 8px;
+    background: var(--background-secondary-alt);
+    border-radius: 3px;
+    border-left: 3px solid var(--text-accent);
+}
+
+.export-container {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid var(--background-modifier-border);
+}
+
+.modal-button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.modal-button-container button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 1px solid var(--interactive-accent);
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+    cursor: pointer;
+}
+
+.modal-button-container button:not(.mod-cta) {
+    background: var(--background-secondary);
+    color: var(--text-normal);
+    border-color: var(--background-modifier-border);
+}
+
+.modal-button-container button:hover {
+    opacity: 0.8;
+}
